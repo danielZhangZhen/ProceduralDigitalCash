@@ -1,0 +1,12 @@
+C:\Users\Zhang\Desktop\REST-API-demos-master\Rest-C#-demo\WFDigitalCash\bin\Debug\WFDigitalCash.exe.config
+C:\Users\Zhang\Desktop\REST-API-demos-master\Rest-C#-demo\WFDigitalCash\bin\Debug\WFDigitalCash.exe
+C:\Users\Zhang\Desktop\REST-API-demos-master\Rest-C#-demo\WFDigitalCash\bin\Debug\WFDigitalCash.pdb
+C:\Users\Zhang\Desktop\REST-API-demos-master\Rest-C#-demo\WFDigitalCash\obj\Debug\WFDigitalCash.csprojResolveAssemblyReference.cache
+C:\Users\Zhang\Desktop\REST-API-demos-master\Rest-C#-demo\WFDigitalCash\obj\Debug\WFDigitalCash.Form1.resources
+C:\Users\Zhang\Desktop\REST-API-demos-master\Rest-C#-demo\WFDigitalCash\obj\Debug\WFDigitalCash.Properties.Resources.resources
+C:\Users\Zhang\Desktop\REST-API-demos-master\Rest-C#-demo\WFDigitalCash\obj\Debug\WFDigitalCash.csproj.GenerateResource.Cache
+C:\Users\Zhang\Desktop\REST-API-demos-master\Rest-C#-demo\WFDigitalCash\obj\Debug\WFDigitalCash.exe
+C:\Users\Zhang\Desktop\REST-API-demos-master\Rest-C#-demo\WFDigitalCash\obj\Debug\WFDigitalCash.pdb
+C:\Users\Zhang\Desktop\GithubDigitalCash\C#demo\WFDigitalCash\bin\Debug\WFDigitalCash.exe.config
+C:\Users\Zhang\Desktop\GithubDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.exe
+C:\Users\Zhang\Desktop\GithubDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.pdb

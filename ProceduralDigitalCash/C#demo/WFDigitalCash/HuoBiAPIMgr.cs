@@ -1,25 +1,22 @@
-﻿using Huobi.Rest.CSharp.Demo.Model;
-using RestSharp;
+﻿using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
 using System.Web;
-/// <summary>
-/// GitHub:https://github.com/CryptocurrencyToolKits/Huobi.Rest.CSharp.Demo
-/// </summary>
-namespace Huobi.Rest.CSharp.Demo
+
+namespace WFDigitalCash
 {
-    public class HuobiApi
+    class HuoBiAPIMgr
     {
 
         #region HuoBiApi配置信息
         /// <summary>
         /// API域名名称
         /// </summary>
-        private readonly string HUOBI_HOST = string.Empty;
+        private readonly string HUOBI_HOST = "api.huobi.pro";
         /// <summary>
         /// APi域名地址
         /// </summary>
@@ -41,53 +38,13 @@ namespace Huobi.Rest.CSharp.Demo
         /// </summary>
         private readonly string SECRET_KEY = string.Empty;
         #endregion
+        //http请求客户端
+        private RestClient client;
 
-        #region HuoBiApi接口地址
-        //GET 查询系统支持的所有交易对及精度
-        private const string API_COMMON_SYMBOLS = "/v1/common/symbols";
-        //GET  查询系统支持的所有币种
-        private const string API_COMMON_CURRENCYS = "/v1/common/currencys";
-        //GET  查询系统当前时间
-        private const string API_COMMON_TIMES = "/v1/common/timestamp";
-        //GET查询Pro站指定账户的余额
-        private const string API_ACCOUNBT_BALANCE = "/v1/account/accounts/{0}/balance";
-        //GET查询当前用户的所有账户(即account-id)，Pro站和HADAX account-id通用
-        private const string API_ACCOUNBT_ALL = "/v1/account/accounts";
-        //POST Pro站下单
-        private const string API_ORDERS_PLACE = "/v1/order/orders/place";
-        //POST申请撤销一个订单请求
-        private const string API_ORDERS_SUBMITCANCEL = " /v1/order/orders/{order-id}/submitcancel";
-        //POST  批量撤销订单
-        private const string API_ORDERS_BATCHCANCEL = "/v1/order/orders/batchcancel";
-        //GET 查询某个订单详情
-        private const string API_ORDERS_ORDERID = "/v1/order/orders/{order-id} ";
-        //GET 查询某个订单的成交明细
-        private const string API_ORDERS_ID_MATCHRESULTS = "/v1/order/orders/{order-id}/matchresults";
-        //GET查询当前委托、历史委托
-        private const string API_ORDER_ORDERS = " /v1/order/orders";
-        //GET查询当前成交、历史成交
-        private const string API_ORDER_MATCHRESULTS = " /v1/order/matchresults";
-        //GET 获取K线数据 
-        private const string API_MARKET_KLINE = "/market/history/kline";
-        //GET  获取聚合行情(Ticker)
-        private const string API_DETAIL_MERGED = "/market/detail/merged";
-        //GET 获取Market Depth 数据
-        private const string API_MARKET_DEPTH = "/market/depth";
-        //GET  获取 Trade Detail 数据
-        private const string API_MARKET_TRADE = "/market/trade";
-        //GET   批量获取最近的交易记录
-        private const string API_MARKET_HISTORY_TRADE = "/market/history/trade";
-        //GET  获取 Market Detail 24小时成交量数据
-        private const string API_MARKET_DETAIL = "/market/history/trade";
-        #endregion
-
-        #region 构造函数
-        private RestClient client;//http请求客户端
-        public HuobiApi(string accessKey, string secretKey, string huobi_host = "api.huobi.pro")
+        public HuoBiAPIMgr ()
         {
-            ACCESS_KEY = accessKey;
-            SECRET_KEY = secretKey;
-            HUOBI_HOST = huobi_host;
+            ACCESS_KEY = UserDataMgr.Ins.ACCESS_KEY;
+            SECRET_KEY = UserDataMgr.Ins.SECRET_KEY;
             HUOBI_HOST_URL = "https://" + HUOBI_HOST;
             if (string.IsNullOrEmpty(ACCESS_KEY))
                 throw new ArgumentException("ACCESS_KEY Cannt Be Null Or Empty");
@@ -99,18 +56,17 @@ namespace Huobi.Rest.CSharp.Demo
             client.AddDefaultHeader("Content-Type", "application/json");
             client.AddDefaultHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36");
         }
-        #endregion
 
         #region HuoBiApi方法
         public List<Account> GetAllAccount()
         {
-            var result = SendRequest<List<Account>>(API_ACCOUNBT_ALL);
+            var result = SendRequest<List<Account>>(HuobiServerUrl.API_ACCOUNBT_ALL);
             return result.Data;
         }
         public HBResponse<long> OrderPlace(OrderPlaceRequest req)
         {
             var bodyParas = new Dictionary<string, string>();
-            var result = SendRequest<long, OrderPlaceRequest>(API_ORDERS_PLACE, req);
+            var result = SendRequest<long, OrderPlaceRequest>(HuobiServerUrl.API_ORDERS_PLACE, req);
             return result;
         }
         #endregion
@@ -250,8 +206,5 @@ namespace Huobi.Rest.CSharp.Demo
             return UrlEncode(sign);
         }
         #endregion
-
-
-
     }
 }

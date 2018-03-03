@@ -14,6 +14,7 @@ namespace Huobi.Rest.CSharp.Demo.Tests
         public void GetAllAccountTest()
         {
             var result = api.GetAllAccount();
+            
             Assert.IsNull(result);
         }
 
@@ -21,7 +22,7 @@ namespace Huobi.Rest.CSharp.Demo.Tests
         public void OrderPlaceTest()
         {
             var accounts = api.GetAllAccount();
-            var spotAccountId = accounts.FirstOrDefault(a => a.Type == "spot" && a.State == "working").Id;
+            var spotAccountId = accounts.FirstOrDefault(a => a.Type == "spot" && a.State == "working")?.Id;
             if (spotAccountId <= 0)
                 throw new ArgumentException("spot account unavailable");
             OrderPlaceRequest req = new OrderPlaceRequest();

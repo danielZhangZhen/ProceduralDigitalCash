@@ -24,3 +24,15 @@ F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCas
 F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.csproj.GenerateResource.Cache
 F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.exe
 F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.pdb
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.csprojResolveAssemblyReference.cache
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.Form1.resources
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.Properties.Resources.resources
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.csproj.GenerateResource.Cache
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.exe
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.pdb
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\WFDigitalCash.exe.config
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\WFDigitalCash.exe
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\WFDigitalCash.pdb
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\Newtonsoft.Json.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\System.ValueTuple.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\System.ValueTuple.xml

@@ -45,6 +45,7 @@
     <Reference Include="System.ValueTuple">
       <HintPath>..\Huobi.Rest.CSharp.Demo\bin\Debug\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -63,8 +64,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="HuoBiAPIMgr.cs" />
-    <Compile Include="HuobiServerUrl.cs" />
-    <Compile Include="OKCoinServerUrl.cs" />
+    <Compile Include="Huobi\Account.cs" />
+    <Compile Include="Huobi\HBResponse.cs" />
+    <Compile Include="Huobi\HuobiServerUrl.cs" />
+    <Compile Include="Huobi\OrderPlaceRequest.cs" />
+    <Compile Include="OKCoin\OKCoinServerUrl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserDataMgr.cs" />

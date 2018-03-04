@@ -26,3 +26,17 @@ F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.C
 F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\obj\Debug\Huobi.Rest.CSharp.DemoTests.csprojResolveAssemblyReference.cache
 F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\obj\Debug\Huobi.Rest.CSharp.DemoTests.dll
 F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\obj\Debug\Huobi.Rest.CSharp.DemoTests.pdb
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\Huobi.Rest.CSharp.DemoTests.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\Huobi.Rest.CSharp.DemoTests.pdb
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\Huobi.Rest.CSharp.Demo.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\RestSharp.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\Newtonsoft.Json.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\System.ValueTuple.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\Huobi.Rest.CSharp.Demo.pdb
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\Newtonsoft.Json.xml
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\System.ValueTuple.xml
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\obj\Debug\Huobi.Rest.CSharp.DemoTests.csprojResolveAssemblyReference.cache
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\obj\Debug\Huobi.Rest.CSharp.DemoTests.dll
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\Huobi.Rest.CSharp.DemoTests\obj\Debug\Huobi.Rest.CSharp.DemoTests.pdb

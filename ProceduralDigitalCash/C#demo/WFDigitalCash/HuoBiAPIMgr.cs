@@ -148,6 +148,7 @@ namespace WFDigitalCash
             foreach (char c in str)
             {
                 Console.WriteLine(c);
+               
                 if (HttpUtility.UrlEncode(c.ToString(), Encoding.UTF8).Length > 1)
                 {
                     builder.Append(HttpUtility.UrlEncode(c.ToString(), Encoding.UTF8).ToUpper());

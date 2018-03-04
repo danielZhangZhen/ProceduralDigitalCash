@@ -58,20 +58,97 @@ namespace WFDigitalCash
         }
 
         #region HuoBiApi方法
-        public List<Account> GetAllAccount()
+        //获取所有账户信息
+        public string GetAllAccountJson()
         {
-            var result = SendRequest<List<Account>>(HuobiServerUrl.API_ACCOUNBT_ALL);
-            return result.Data;
+            var result = SendRequest(HuobiServerUrl.API_ACCOUNBT_ALL);
+            return result;
         }
+        public string GetMarketKlineJson()
+        {
+            string symbol = "symbol=bchbtc";
+            string period = "period=5min";
+            string size = "size=150";
+            var result = SendRequest(HuobiServerUrl.API_MARKET_KLINE,$"&{period}&{size}&{symbol}");
+            return result;
+        }
+        public string GetDetailMergedJson()
+        {
+            string symbol = "symbol=ethusdt";
+
+             var result = SendRequest(HuobiServerUrl.API_DETAIL_MERGED, $"&{symbol}");
+          
+            return result;
+        }
+        public string GetMarketDepthJson()
+        {
+            string symbol = "symbol=ethusdt";
+            string type = "type=step2";
+            var result = SendRequest(HuobiServerUrl.API_MARKET_DEPTH, $"&{symbol}&{type}");
+            return result;
+        }
+        public string GetMarketTradeJson()
+        {
+            string symbol = "symbol=ethusdt";
+            var result = SendRequest(HuobiServerUrl.API_MARKET_TRADE, $"&{symbol}");
+            return result;
+        }
+        public string GetMarketHistoryTradeJson()
+        {
+            string symbol = "symbol=ethusdt";
+            string size = "size=5";
+            var result = SendRequest(HuobiServerUrl.API_MARKET_HISTORY_TRADE, $"&{symbol}&{size}");
+            return result;
+        }
+        public string GetMarketDetailJson()
+        {
+            string symbol = "symbol=ethusdt";
+            var result = SendRequest(HuobiServerUrl.API_MARKET_DETAIL, $"&{symbol}");
+            return result;
+        }
+
+        public string GetCommonSymbols()
+        {
+            var result = SendRequest(HuobiServerUrl.API_COMMON_SYMBOLS);
+            return result;
+        }
+
+
+
+
+
+        //交易下单 
         public HBResponse<long> OrderPlace(OrderPlaceRequest req)
         {
+         
             var bodyParas = new Dictionary<string, string>();
             var result = SendRequest<long, OrderPlaceRequest>(HuobiServerUrl.API_ORDERS_PLACE, req);
             return result;
         }
+
+
         #endregion
 
         #region HTTP请求方法
+        /// <summary>
+        /// 只返回JSON
+        /// </summary>
+        /// <param name="resourcePath"></param>
+        /// <param name="parameters"></param>
+        /// <returns></returns>
+        public string SendRequest(string resourcePath,string parameters = "")
+        {
+            parameters = UriEncodeParameterValue(GetCommonParameters() + parameters);//请求参数
+            var sign = GetSignatureStr(Method.GET, HUOBI_HOST, resourcePath, parameters);//签名
+            parameters += $"&Signature={sign}";
+
+            var url = $"{HUOBI_HOST_URL}{resourcePath}?{parameters}";
+            Console.WriteLine(url);
+            var request = new RestRequest(url, Method.GET);
+            var result = client.Execute(request);
+            return result.Content;
+        }
+
         /// <summary>
         /// 发起Http请求
         /// </summary>
@@ -146,9 +223,7 @@ namespace WFDigitalCash
         {
             StringBuilder builder = new StringBuilder();
             foreach (char c in str)
-            {
-                Console.WriteLine(c);
-               
+            {     
                 if (HttpUtility.UrlEncode(c.ToString(), Encoding.UTF8).Length > 1)
                 {
                     builder.Append(HttpUtility.UrlEncode(c.ToString(), Encoding.UTF8).ToUpper());
@@ -158,7 +233,6 @@ namespace WFDigitalCash
                     builder.Append(c);
                 }
             }
-            Console.WriteLine(builder);
             return builder.ToString();
         }
         /// <summary>

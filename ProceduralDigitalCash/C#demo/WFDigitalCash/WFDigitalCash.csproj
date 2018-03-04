@@ -68,6 +68,7 @@
     <Compile Include="Huobi\HBResponse.cs" />
     <Compile Include="Huobi\HuobiServerUrl.cs" />
     <Compile Include="Huobi\OrderPlaceRequest.cs" />
+    <Compile Include="OKCoinMgr.cs" />
     <Compile Include="OKCoin\OKCoinServerUrl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

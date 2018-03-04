@@ -29,9 +29,13 @@ namespace WFDigitalCash
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string json = string.Empty;
             switch (serverState)
             {
+
                 case EServerState.eHuobi:
+                    HuoBiAPIMgr huobiApi = new HuoBiAPIMgr();
+                    json = huobiApi.GetCommonSymbols();
                     break;
                 case EServerState.eOKcoin:
                     break;
@@ -40,6 +44,7 @@ namespace WFDigitalCash
                 default:
                     break;
             }
+            textBox1.Text = !string.IsNullOrEmpty(json) ? json : "null";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

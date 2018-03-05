@@ -1,0 +1,15 @@
+c:\users\blabla\documents\visual studio 2013\Projects\rest\rest\bin\Debug\rest.exe.config
+c:\users\blabla\documents\visual studio 2013\Projects\rest\rest\bin\Debug\rest.exe
+c:\users\blabla\documents\visual studio 2013\Projects\rest\rest\bin\Debug\rest.pdb
+c:\users\blabla\documents\visual studio 2013\Projects\rest\rest\obj\Debug\rest.csprojResolveAssemblyReference.cache
+c:\users\blabla\documents\visual studio 2013\Projects\rest\rest\obj\Debug\rest.exe
+c:\users\blabla\documents\visual studio 2013\Projects\rest\rest\obj\Debug\rest.pdb
+C:\Users\daniel\Downloads\rest-master\C#\rest\bin\Debug\rest.exe.config
+C:\Users\daniel\Downloads\rest-master\C#\rest\obj\Debug\rest.exe
+C:\Users\daniel\Downloads\rest-master\C#\rest\obj\Debug\rest.pdb
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\bin\Debug\rest.exe.config
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\bin\Debug\rest.exe
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\bin\Debug\rest.pdb
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.csprojResolveAssemblyReference.cache
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.exe
+F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.pdb

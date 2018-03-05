@@ -41,7 +41,10 @@ namespace WFDigitalCash
                 case EServerState.eOKcoin:
                     Console.WriteLine("okcoin");
                     OKCoinMgr okCoinMgr = new OKCoinMgr();
-                    json = okCoinMgr.ticker("ltc_usd");
+                    //   json = okCoinMgr.ticker("ltc_usd");
+                    //  json = okCoinMgr.depth("etc_cny", "2");
+                    //  json = okCoinMgr.trades("ltc_usd", "5");
+                    json = okCoinMgr.kline("etc_usd","5min", "150", "");
                     Console.WriteLine(json);
                     break;
                 case EServerState.eBian:

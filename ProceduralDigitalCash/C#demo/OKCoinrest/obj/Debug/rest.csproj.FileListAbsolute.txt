@@ -13,3 +13,9 @@ F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\b
 F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.csprojResolveAssemblyReference.cache
 F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.exe
 F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.pdb
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\bin\Debug\rest.exe.config
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\bin\Debug\rest.exe
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\bin\Debug\rest.pdb
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.csprojResolveAssemblyReference.cache
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.exe
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.pdb

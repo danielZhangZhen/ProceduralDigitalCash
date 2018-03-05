@@ -38,3 +38,17 @@ F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCas
 F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\RestSharp.dll
 F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\Newtonsoft.Json.xml
 F:\GitRepository\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.csprojResolveAssemblyReference.cache
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\WFDigitalCash.exe.config
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.exe
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.pdb
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\WFDigitalCash.exe
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\WFDigitalCash.pdb
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\Newtonsoft.Json.dll
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\RestSharp.dll
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\System.ValueTuple.dll
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\Newtonsoft.Json.xml
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\bin\Debug\System.ValueTuple.xml
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.csprojResolveAssemblyReference.cache
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.Form1.resources
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.Properties.Resources.resources
+F:\test\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\WFDigitalCash\obj\Debug\WFDigitalCash.csproj.GenerateResource.Cache

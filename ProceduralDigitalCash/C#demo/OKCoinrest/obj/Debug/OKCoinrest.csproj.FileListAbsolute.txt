@@ -1,0 +1,6 @@
+F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\bin\Debug\rest.exe.config
+F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\bin\Debug\rest.exe
+F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\bin\Debug\rest.pdb
+F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\OKCoinrest.csprojResolveAssemblyReference.cache
+F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.exe
+F:\GitHubProject\ProceduralDigitalCash\ProceduralDigitalCash\C#demo\OKCoinrest\obj\Debug\rest.pdb

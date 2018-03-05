@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Huobi.Rest.CSharp.DemoTests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFDigitalCash", "WFDigitalCash\WFDigitalCash.csproj", "{06552D1C-8E19-468A-9AD6-B9612CA2ED70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rest", "OKCoinrest\rest.csproj", "{C3A49FBC-7F63-4F56-AC4E-70506E21FC5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OKCoinrest", "OKCoinrest\OKCoinrest.csproj", "{C3A49FBC-7F63-4F56-AC4E-70506E21FC5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

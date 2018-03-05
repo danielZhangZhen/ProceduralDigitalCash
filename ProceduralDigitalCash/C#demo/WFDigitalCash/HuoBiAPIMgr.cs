@@ -41,7 +41,7 @@ namespace WFDigitalCash
         //http请求客户端
         private RestClient client;
 
-        public HuoBiAPIMgr ()
+        public HuoBiAPIMgr()
         {
             ACCESS_KEY = UserDataMgr.Ins.ACCESS_KEY;
             SECRET_KEY = UserDataMgr.Ins.SECRET_KEY;
@@ -69,15 +69,13 @@ namespace WFDigitalCash
             string symbol = "symbol=bchbtc";
             string period = "period=5min";
             string size = "size=150";
-            var result = SendRequest(HuobiServerUrl.API_MARKET_KLINE,$"&{period}&{size}&{symbol}");
+            var result = SendRequest(HuobiServerUrl.API_MARKET_KLINE, $"&{period}&{size}&{symbol}");
             return result;
         }
         public string GetDetailMergedJson()
         {
             string symbol = "symbol=ethusdt";
-
-             var result = SendRequest(HuobiServerUrl.API_DETAIL_MERGED, $"&{symbol}");
-          
+            var result = SendRequest(HuobiServerUrl.API_DETAIL_MERGED, $"&{symbol}");
             return result;
         }
         public string GetMarketDepthJson()
@@ -120,7 +118,7 @@ namespace WFDigitalCash
         //交易下单 
         public HBResponse<long> OrderPlace(OrderPlaceRequest req)
         {
-         
+
             var bodyParas = new Dictionary<string, string>();
             var result = SendRequest<long, OrderPlaceRequest>(HuobiServerUrl.API_ORDERS_PLACE, req);
             return result;
@@ -136,7 +134,7 @@ namespace WFDigitalCash
         /// <param name="resourcePath"></param>
         /// <param name="parameters"></param>
         /// <returns></returns>
-        public string SendRequest(string resourcePath,string parameters = "")
+        public string SendRequest(string resourcePath, string parameters = "")
         {
             parameters = UriEncodeParameterValue(GetCommonParameters() + parameters);//请求参数
             var sign = GetSignatureStr(Method.GET, HUOBI_HOST, resourcePath, parameters);//签名
@@ -223,7 +221,7 @@ namespace WFDigitalCash
         {
             StringBuilder builder = new StringBuilder();
             foreach (char c in str)
-            {     
+            {
                 if (HttpUtility.UrlEncode(c.ToString(), Encoding.UTF8).Length > 1)
                 {
                     builder.Append(HttpUtility.UrlEncode(c.ToString(), Encoding.UTF8).ToUpper());

@@ -5,8 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
-using com.okcoin.rest;
-namespace com.okcoin.rest
+namespace WFDigitalCash.OKCoin
 {
     class MD5Util
     {

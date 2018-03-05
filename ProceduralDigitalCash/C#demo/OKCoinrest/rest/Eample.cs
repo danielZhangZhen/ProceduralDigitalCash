@@ -15,10 +15,10 @@ namespace com.okcoin.rest
             String secret_key = "";  //OKCoin申请的secretKey
             String url_prex = "https://www.okcoin.com"; //国内站账号配置 为 https://www.okcoin.cn
             //期货操作
-            FutureRestApiV1 getRequest = new FutureRestApiV1(url_prex);
-            FutureRestApiV1 postRequest = new FutureRestApiV1(url_prex, api_key, secret_key);
+        //    FutureRestApiV1 getRequest = new FutureRestApiV1(url_prex);
+      //      FutureRestApiV1 postRequest = new FutureRestApiV1(url_prex, api_key, secret_key);
             //期货行情信息
-            //Console.WriteLine(getRequest.future_ticker("ltc_usd", "this_week"));
+        //    Console.WriteLine(getRequest.future_ticker("ltc_usd", "this_week"));
             //期货深度信息
             //Console.WriteLine(getRequest.future_depth("ltc_usd", "this_week"));
             //期货交易记录信息
@@ -60,11 +60,13 @@ namespace com.okcoin.rest
 
             //现货操作
             StockRestApi getRequest1 = new StockRestApi(url_prex);
-            StockRestApi postRequest1 = new StockRestApi(url_prex, api_key, secret_key);
+           
+       //     StockRestApi postRequest1 = new StockRestApi(url_prex, api_key, secret_key);
             //获取现货行情
-            //Console.WriteLine(getRequest1.ticker("ltc_usd"));
+            Console.WriteLine(getRequest1.ticker("ltc_usd"));
+            Console.ReadLine();
             //获取现货市场深度
-            //Console.WriteLine(getRequest1.depth("ltc_usd","2"));
+      //     Console.WriteLine(getRequest1.depth("ltc_usd","2"));
             //获取最近600交易信息
             //Console.WriteLine(getRequest1.trades("ltc_usd","20"));
              //获取比特币或莱特币的K线数据

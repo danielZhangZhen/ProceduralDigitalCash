@@ -34,10 +34,15 @@ namespace WFDigitalCash
             {
 
                 case EServerState.eHuobi:
+                    Console.WriteLine("huobi");
                     HuoBiAPIMgr huobiApi = new HuoBiAPIMgr();
                     json = huobiApi.GetCommonSymbols();
                     break;
                 case EServerState.eOKcoin:
+                    Console.WriteLine("okcoin");
+                    OKCoinMgr okCoinMgr = new OKCoinMgr();
+                    json = okCoinMgr.ticker("ltc_usd");
+                    Console.WriteLine(json);
                     break;
                 case EServerState.eBian:
                     break;
